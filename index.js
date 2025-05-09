@@ -10,9 +10,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.send("backend is running");
 });
-app.get("/check", (req, res) => {
-  res.send("checking");
-});
+
 app.use("/api/users", require("./routes/users"));
 app.use("/api/tasks", require("./routes/tasks"));
 
