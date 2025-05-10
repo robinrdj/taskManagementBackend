@@ -32,8 +32,8 @@ you have to be careful while uploading xlsx or csv file.
 kindly follow the instruction mentioned there before uploading to avoid error
 Instructions for uploading
 
-- Kindly follow the exact excel header as shown below
-  title description effort due_date user_id
+- Kindly follow the exact excel header as shown
+  [title description effort due_date user_id]
   don't capitalise and only use the above headers
 - Input everything as strings including date
 
@@ -51,13 +51,13 @@ Instructions for uploading
   kindly try going to login page and login, following the login link found in the register page, as u might have already registered.
 
 Technologies Used
-frontend:Reactjs
-backend:NodeJs
+frontend:Reactjs,
+backend:NodeJs,
 Database:postgres
 
 Deployment:
-frontend:vercel
-backend:render
+frontend:vercel,
+backend:render,
 database:render
 
 You could access the application using the following link
